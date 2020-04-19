@@ -240,14 +240,17 @@ Create new rule
 
 Step 3
 We set our trigger, which is is a boolean. We have simply set it so be true when the price of BTC * optimised offset is smaller than the moving average
+
  <img src="./images/step3.png " width="650" height="350" />
 
 Step 4
 Now we set up our orders to be placed, again, we will use our parameters from the optimisation;
+
  <img src="./images/step4.png " width="650" height="350" />
 
 Step 5
 Now, We need to set up the Sell side of our rule
+
  <img src="./images/step5.png " width="650" height="350" />
 
 Save and the rule is complete!
@@ -257,6 +260,7 @@ Save and the rule is complete!
 As you can see, it is incredibly quick and easy to get a strategy up and running on FTX.
 
 Depending upon the reception to this post, I will make another either visualisation of results, or on how to listen to a FTX websockets for an event driven trading backtesting system.
+
 
 
 BTC:
@@ -269,6 +273,8 @@ BCH:
 [Patreon](https://www.patreon.com/8baller030?fan_landing=true)
  
 # References
+
+[Github Repo] (
 
 [CCXT](https://github.com/ccxt/ccxt) 
 
