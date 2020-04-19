@@ -1,5 +1,10 @@
 ## FTX Quant Zone Competition
 
+I have been involved in cryptos for quite a while now. As a libertarian, I find the concept of decentralisation fascinating.
+
+As a part-time masters student of computer science, my thesis is on the application of artifically intelligence in cryptocurrency markets.
+
+
 [FTX Exchange](https://ftx.com/#a=2746848)  is a new exchange to me, however once I saw that it had a quant zone. I had to get involved.
 
 The quantzone allows you to define rules and then have them execute upon the markets in real time.
@@ -265,6 +270,7 @@ Depending upon the reception to this post, I will make another either visualisat
 
 BTC:
 37fRtmuJTLR8QZtKWwyHh7d5AWiv4Xoz8G
+
 BCH:
 0xec34CD3ABDEBC781647083AF3d2fafADacb35D63
 
@@ -274,7 +280,7 @@ BCH:
  
 # References
 
-[Github Repo] (
+[Github Repo] (https://github.com/8ball030/ftx_competition_entry)
 
 [CCXT](https://github.com/ccxt/ccxt) 
 
