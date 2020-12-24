@@ -25,12 +25,20 @@ Our simple rule will involve just buying btc, using limit orders. (this is not a
 As the goal for myself is simply gather more BTC,  we will not implement selling simply, optimal placement of limit orers to maximise our BTC balance over 1m windows.
 
 
+## Installing requeriments
+
+To install the libraries used by the scripts install them pip like this:
+
+```
+pip install --user -r requeriments.txt
+```
+
 # OHLC Gathering
 As an example, we will gather the OHLCV for BTC/USD in 1m candles.
 
 We will gather the data directly from FTX, using the fantastic CCXT library as so;
 
-```
+```python
 import pandas as pd
 import ccxt
 import datetime
@@ -67,7 +75,7 @@ Luckily, Pyalgotrade handles a lot of this for us.
 
 So, we can first do some thing like this;
 
-```
+```python
 from __future__ import print_function
 
 from pyalgotrade import strategy
@@ -140,7 +148,7 @@ Now we have effectively coded our strategy, it is time to see what it looks like
 
 In order to do that, we will run the backtesting code set up as so;
 
-```
+```python
 # python3 strategy.py
 
 from pyalgotrade import strategy
