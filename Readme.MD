@@ -25,6 +25,14 @@ Our simple rule will involve just buying btc, using limit orders. (this is not a
 As the goal for myself is simply gather more BTC,  we will not implement selling simply, optimal placement of limit orers to maximise our BTC balance over 1m windows.
 
 
+## Installing requeriments
+
+To install the libraries used by the scripts install them pip like this:
+
+```
+pip install --user -r requeriments.txt
+```
+
 # OHLC Gathering
 As an example, we will gather the OHLCV for BTC/USD in 1m candles.
 
